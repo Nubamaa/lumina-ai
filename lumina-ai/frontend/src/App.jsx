@@ -9,7 +9,7 @@ import HowItWorksPage from './pages/HowItWorksPage'
 
 export default function App() {
   return (
-    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <BrowserRouter basename="/lumina-ai/" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
