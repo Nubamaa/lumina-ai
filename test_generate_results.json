@@ -1,0 +1,520 @@
+[
+  {
+    "test": 1,
+    "payload": {
+      "subject": "Math",
+      "gradeLevel": "Grade 1",
+      "topic": "Shapes",
+      "curriculum": "MATATAG",
+      "specialNotes": "none",
+      "quarter": "1st Quarter",
+      "duration": "50 Minutes"
+    },
+    "response": {
+      "advisory": "",
+      "bloomsLevels": [
+        "Remember",
+        "Understand"
+      ],
+      "competencyCodes": [],
+      "curriculum": "MATATAG",
+      "decisions": [
+        "Primary grade (Grade 1) → Simple vocabulary, play-based activities, Remember/Understand objectives",
+        "Subject: Math → All competencies and examples scoped to this learning area",
+        "Topic: Shapes → All objectives, activities, and assessments centered on this concept",
+        "Quarter: 1st Quarter → Pacing and references framed for this grading period",
+        "Difficulty: Intermediate → Depth and scaffolding calibrated accordingly",
+        "Duration: 50 Minutes → All 6 RRMLAG steps time-allocated to fit exactly",
+        "Curriculum: MATATAG → Lesson aligned to this framework",
+        "Output format: narrative → Layout generated accordingly"
+      ],
+      "generated_at": "2026-05-24T04:50:38.637679+00:00",
+      "lesson_plan": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>Identify and name basic shapes (square, circle, triangle, rectangle)</td>\n    <td>Recognize and describe the characteristics of each shape</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Aligned with MATATAG Curriculum, Grade 1, Quarter 1</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Teacher will show pictures of different shapes found in the classroom and ask students to identify them.</td>\n    <td>Students will be encouraged to share their own experiences with shapes.</td>\n    <td>Teacher will ask students to draw their favorite shape on a piece of paper.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"4\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Introduction (5 minutes)</td>\n    <td>Teacher will review the shapes learned in the previous lesson.</td>\n    <td>Students will be asked to share what they know about shapes.</td>\n    <td>Teacher will write the names of the shapes on the board.</td>\n  </tr>\n  <tr>\n    <td>Direct Instruction (10 minutes)</td>\n    <td>Teacher will show pictures of different shapes and ask students to identify them.</td>\n    <td>Students will be asked to describe the characteristics of each shape.</td>\n    <td>Teacher will provide examples of real-life objects that are shaped like the objects shown.</td>\n  </tr>\n  <tr>\n    <td>Guided Practice (15 minutes)</td>\n    <td>Students will be given a worksheet with pictures of different shapes.</td>\n    <td>Students will be asked to identify and name the shapes.</td>\n    <td>Teacher will circulate around the room to assist students as needed.</td>\n  </tr>\n  <tr>\n    <td>Independent Practice (10 minutes)</td>\n    <td>Students will be given a blank piece of paper and asked to draw their favorite shape.</td>\n    <td>Students will be encouraged to use their imagination and creativity.</td>\n    <td>Teacher will walk around the room to observe students' work.</td>\n  </tr>\n  <tr>\n    <td>Conclusion (5 minutes)</td>\n    <td>Teacher will review the shapes learned in the lesson.</td>\n    <td>Students will be asked to share one thing they learned about shapes.</td>\n    <td>Teacher will ask students to close their eyes and imagine a shape.</td>\n  </tr>\n  <tr>\n    <td colspan=\"4\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will be asked to find objects in the classroom that are shaped like the shapes learned in the lesson.</td>\n    <td>Students will be encouraged to use their imagination and creativity to think of real-life objects that are shaped like the shapes.</td>\n    <td>Teacher will ask students to share their findings with the class.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the guided and independent practice activities.</td>\n    <td>Teacher will review students' worksheets and drawings for accuracy.</td>\n    <td>Teacher will ask students questions during the lesson to assess their understanding.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will be given a worksheet with pictures of different shapes and asked to identify and name them.</td>\n    <td>Students will be asked to draw a picture of a real-life object that is shaped like one of the shapes learned in the lesson.</td>\n    <td>Students will be encouraged to use their imagination and creativity.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Due Date: Next class</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students will be encouraged to ask questions and seek help when needed.</td>\n    <td>Teacher will provide additional support to students who need it.</td>\n    <td>Students will be praised for their efforts and progress.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and make adjustments for future lessons.</td>\n    <td>Teacher will consider the students' needs and adjust the lesson plan accordingly.</td>\n    <td>Teacher will evaluate the students' understanding and adjust the lesson plan to better meet their needs.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>",
+      "lesson_plan_narrative": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>Identify and name basic shapes (square, circle, triangle, rectangle)</td>\n    <td>Recognize and describe the characteristics of each shape</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Aligned with MATATAG Curriculum, Grade 1, Quarter 1</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Teacher will show pictures of different shapes found in the classroom and ask students to identify them.</td>\n    <td>Students will be encouraged to share their own experiences with shapes.</td>\n    <td>Teacher will ask students to draw their favorite shape on a piece of paper.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"4\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Introduction (5 minutes)</td>\n    <td>Teacher will review the shapes learned in the previous lesson.</td>\n    <td>Students will be asked to share what they know about shapes.</td>\n    <td>Teacher will write the names of the shapes on the board.</td>\n  </tr>\n  <tr>\n    <td>Direct Instruction (10 minutes)</td>\n    <td>Teacher will show pictures of different shapes and ask students to identify them.</td>\n    <td>Students will be asked to describe the characteristics of each shape.</td>\n    <td>Teacher will provide examples of real-life objects that are shaped like the objects shown.</td>\n  </tr>\n  <tr>\n    <td>Guided Practice (15 minutes)</td>\n    <td>Students will be given a worksheet with pictures of different shapes.</td>\n    <td>Students will be asked to identify and name the shapes.</td>\n    <td>Teacher will circulate around the room to assist students as needed.</td>\n  </tr>\n  <tr>\n    <td>Independent Practice (10 minutes)</td>\n    <td>Students will be given a blank piece of paper and asked to draw their favorite shape.</td>\n    <td>Students will be encouraged to use their imagination and creativity.</td>\n    <td>Teacher will walk around the room to observe students' work.</td>\n  </tr>\n  <tr>\n    <td>Conclusion (5 minutes)</td>\n    <td>Teacher will review the shapes learned in the lesson.</td>\n    <td>Students will be asked to share one thing they learned about shapes.</td>\n    <td>Teacher will ask students to close their eyes and imagine a shape.</td>\n  </tr>\n  <tr>\n    <td colspan=\"4\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will be asked to find objects in the classroom that are shaped like the shapes learned in the lesson.</td>\n    <td>Students will be encouraged to use their imagination and creativity to think of real-life objects that are shaped like the shapes.</td>\n    <td>Teacher will ask students to share their findings with the class.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the guided and independent practice activities.</td>\n    <td>Teacher will review students' worksheets and drawings for accuracy.</td>\n    <td>Teacher will ask students questions during the lesson to assess their understanding.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will be given a worksheet with pictures of different shapes and asked to identify and name them.</td>\n    <td>Students will be asked to draw a picture of a real-life object that is shaped like one of the shapes learned in the lesson.</td>\n    <td>Students will be encouraged to use their imagination and creativity.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Due Date: Next class</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students will be encouraged to ask questions and seek help when needed.</td>\n    <td>Teacher will provide additional support to students who need it.</td>\n    <td>Students will be praised for their efforts and progress.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and make adjustments for future lessons.</td>\n    <td>Teacher will consider the students' needs and adjust the lesson plan accordingly.</td>\n    <td>Teacher will evaluate the students' understanding and adjust the lesson plan to better meet their needs.</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\">Special Notes: none</td>\n  </tr>\n</table>",
+      "lesson_plan_struct": null,
+      "lesson_plan_table": "",
+      "objectives": [
+        "Identify key ideas related to Shapes",
+        "Demonstrate understanding through a class activity on Shapes",
+        "Show appreciation for Shapes in daily life"
+      ],
+      "outputFormat": "narrative",
+      "sectionCompleteness": [
+        {
+          "complete": true,
+          "section": "Objectives"
+        },
+        {
+          "complete": false,
+          "section": "Content Standards"
+        },
+        {
+          "complete": false,
+          "section": "Performance Standards"
+        },
+        {
+          "complete": false,
+          "section": "Learning Competencies"
+        },
+        {
+          "complete": true,
+          "section": "Subject Matter"
+        },
+        {
+          "complete": true,
+          "section": "Learning Resources"
+        },
+        {
+          "complete": true,
+          "section": "Procedures"
+        },
+        {
+          "complete": true,
+          "section": "Teacher Activity"
+        },
+        {
+          "complete": true,
+          "section": "Student Activity"
+        },
+        {
+          "complete": true,
+          "section": "Evaluation"
+        },
+        {
+          "complete": false,
+          "section": "Answer Key"
+        },
+        {
+          "complete": true,
+          "section": "Assignment"
+        },
+        {
+          "complete": true,
+          "section": "Remarks"
+        },
+        {
+          "complete": true,
+          "section": "Reflection"
+        }
+      ],
+      "source": "groq",
+      "strand": "",
+      "usedFallback": false,
+      "validation": {
+        "missing": [
+          "I. OBJECTIVES",
+          "CONTENT STANDARDS",
+          "PERFORMANCE STANDARDS",
+          "LEARNING COMPETENCIES",
+          "II. SUBJECT MATTER",
+          "III. LEARNING RESOURCES",
+          "IV. PROCEDURE",
+          "ANSWER KEY"
+        ],
+        "passed": false,
+        "percentage": 43,
+        "score": 6,
+        "total": 14
+      },
+      "warnings": [
+        "I. OBJECTIVES",
+        "CONTENT STANDARDS",
+        "PERFORMANCE STANDARDS",
+        "LEARNING COMPETENCIES",
+        "II. SUBJECT MATTER",
+        "III. LEARNING RESOURCES",
+        "IV. PROCEDURE",
+        "ANSWER KEY"
+      ]
+    }
+  },
+  {
+    "test": 2,
+    "payload": {
+      "subject": "PE",
+      "gradeLevel": "Grade 3",
+      "topic": "Running",
+      "curriculum": "MATATAG",
+      "specialNotes": "Focus only on breathing techniques",
+      "quarter": "1st Quarter",
+      "duration": "50 Minutes"
+    },
+    "response": {
+      "advisory": "",
+      "bloomsLevels": [
+        "Remember",
+        "Understand"
+      ],
+      "competencyCodes": [],
+      "curriculum": "MATATAG",
+      "decisions": [
+        "Primary grade (Grade 3) → Simple vocabulary, play-based activities, Remember/Understand objectives",
+        "Subject: PE → All competencies and examples scoped to this learning area",
+        "Topic: Running → All objectives, activities, and assessments centered on this concept",
+        "Quarter: 1st Quarter → Pacing and references framed for this grading period",
+        "Difficulty: Intermediate → Depth and scaffolding calibrated accordingly",
+        "Duration: 50 Minutes → All 6 RRMLAG steps time-allocated to fit exactly",
+        "Curriculum: MATATAG → Lesson aligned to this framework",
+        "Output format: narrative → Layout generated accordingly"
+      ],
+      "generated_at": "2026-05-24T04:50:40.199960+00:00",
+      "lesson_plan": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Objectives</th>\n  </tr>\n  <tr>\n    <td>Students will be able to demonstrate proper breathing techniques while running.</td>\n    <td>Students will be able to explain the importance of breathing techniques in running.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Good morning, class! Today we're going to learn how to run like a pro! Who here loves running?</td>\n    <td>Student 1: I love running! Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>1. Introduction (5 minutes)</td>\n    <td>Teacher: Good morning, class! Today we're going to learn how to run like a pro! Who here loves running?</td>\n  </tr>\n  <tr>\n    <td>2. Breathing Techniques (15 minutes)</td>\n    <td>Teacher: Okay, let's start with breathing techniques. Can anyone tell me why breathing is important when running?</td>\n  </tr>\n  <tr>\n    <td>3. Demonstration and Practice (20 minutes)</td>\n    <td>Teacher: Now, let's demonstrate proper breathing techniques while running. Students, please follow my lead.</td>\n  </tr>\n  <tr>\n    <td>4. Conclusion (10 minutes)</td>\n    <td>Teacher: Great job, class! Remember, breathing techniques are essential when running. Let's practice again tomorrow.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will apply the breathing techniques learned in class during the next physical education session.</td>\n    <td>Student 1: I will practice my breathing techniques during recess. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the next physical education session to assess their ability to apply the breathing techniques learned in class.</td>\n    <td>Student 1: I will be able to run faster with proper breathing techniques. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will practice their breathing techniques during recess for the next three days.</td>\n    <td>Student 1: I will practice my breathing techniques every recess. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students are expected to practice their breathing techniques regularly to improve their running skills.</td>\n    <td>Teacher: Remember, practice makes perfect! Let's work together to become better runners.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and make necessary adjustments for future lessons.</td>\n    <td>Teacher: I'm proud of our class for learning proper breathing techniques. Let's keep practicing and improving our running skills.</td>\n  </tr>\n</table>",
+      "lesson_plan_narrative": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Objectives</th>\n  </tr>\n  <tr>\n    <td>Students will be able to demonstrate proper breathing techniques while running.</td>\n    <td>Students will be able to explain the importance of breathing techniques in running.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Good morning, class! Today we're going to learn how to run like a pro! Who here loves running?</td>\n    <td>Student 1: I love running! Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>1. Introduction (5 minutes)</td>\n    <td>Teacher: Good morning, class! Today we're going to learn how to run like a pro! Who here loves running?</td>\n  </tr>\n  <tr>\n    <td>2. Breathing Techniques (15 minutes)</td>\n    <td>Teacher: Okay, let's start with breathing techniques. Can anyone tell me why breathing is important when running?</td>\n  </tr>\n  <tr>\n    <td>3. Demonstration and Practice (20 minutes)</td>\n    <td>Teacher: Now, let's demonstrate proper breathing techniques while running. Students, please follow my lead.</td>\n  </tr>\n  <tr>\n    <td>4. Conclusion (10 minutes)</td>\n    <td>Teacher: Great job, class! Remember, breathing techniques are essential when running. Let's practice again tomorrow.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will apply the breathing techniques learned in class during the next physical education session.</td>\n    <td>Student 1: I will practice my breathing techniques during recess. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the next physical education session to assess their ability to apply the breathing techniques learned in class.</td>\n    <td>Student 1: I will be able to run faster with proper breathing techniques. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will practice their breathing techniques during recess for the next three days.</td>\n    <td>Student 1: I will practice my breathing techniques every recess. Student 2: Me too!</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students are expected to practice their breathing techniques regularly to improve their running skills.</td>\n    <td>Teacher: Remember, practice makes perfect! Let's work together to become better runners.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and make necessary adjustments for future lessons.</td>\n    <td>Teacher: I'm proud of our class for learning proper breathing techniques. Let's keep practicing and improving our running skills.</td>\n  </tr>\n</table>",
+      "lesson_plan_struct": null,
+      "lesson_plan_table": "",
+      "objectives": [
+        "Identify key ideas related to Running",
+        "Demonstrate understanding through a class activity on Running",
+        "Show appreciation for Running in daily life"
+      ],
+      "outputFormat": "narrative",
+      "sectionCompleteness": [
+        {
+          "complete": true,
+          "section": "Objectives"
+        },
+        {
+          "complete": false,
+          "section": "Content Standards"
+        },
+        {
+          "complete": false,
+          "section": "Performance Standards"
+        },
+        {
+          "complete": false,
+          "section": "Learning Competencies"
+        },
+        {
+          "complete": true,
+          "section": "Subject Matter"
+        },
+        {
+          "complete": true,
+          "section": "Learning Resources"
+        },
+        {
+          "complete": true,
+          "section": "Procedures"
+        },
+        {
+          "complete": true,
+          "section": "Teacher Activity"
+        },
+        {
+          "complete": true,
+          "section": "Student Activity"
+        },
+        {
+          "complete": true,
+          "section": "Evaluation"
+        },
+        {
+          "complete": false,
+          "section": "Answer Key"
+        },
+        {
+          "complete": true,
+          "section": "Assignment"
+        },
+        {
+          "complete": true,
+          "section": "Remarks"
+        },
+        {
+          "complete": true,
+          "section": "Reflection"
+        }
+      ],
+      "source": "groq",
+      "strand": "",
+      "usedFallback": false,
+      "validation": {
+        "missing": [
+          "I. OBJECTIVES",
+          "CONTENT STANDARDS",
+          "PERFORMANCE STANDARDS",
+          "LEARNING COMPETENCIES",
+          "II. SUBJECT MATTER",
+          "III. LEARNING RESOURCES",
+          "IV. PROCEDURE",
+          "ANSWER KEY"
+        ],
+        "passed": false,
+        "percentage": 43,
+        "score": 6,
+        "total": 14
+      },
+      "warnings": [
+        "I. OBJECTIVES",
+        "CONTENT STANDARDS",
+        "PERFORMANCE STANDARDS",
+        "LEARNING COMPETENCIES",
+        "II. SUBJECT MATTER",
+        "III. LEARNING RESOURCES",
+        "IV. PROCEDURE",
+        "ANSWER KEY"
+      ]
+    }
+  },
+  {
+    "test": 3,
+    "payload": {
+      "subject": "Entrepreneurship",
+      "gradeLevel": "Grade 11",
+      "topic": "Business Planning",
+      "curriculum": "MATATAG",
+      "specialNotes": "Include only financial literacy activities",
+      "quarter": "1st Quarter",
+      "duration": "50 Minutes"
+    },
+    "response": {
+      "advisory": "",
+      "bloomsLevels": [
+        "Apply",
+        "Analyze"
+      ],
+      "competencyCodes": [],
+      "curriculum": "MATATAG",
+      "decisions": [
+        "Senior High grade (Grade 11) → Research-based tasks, Evaluate/Create objectives",
+        "Subject: Entrepreneurship → All competencies and examples scoped to this learning area",
+        "Topic: Business Planning → All objectives, activities, and assessments centered on this concept",
+        "Quarter: 1st Quarter → Pacing and references framed for this grading period",
+        "Difficulty: Intermediate → Depth and scaffolding calibrated accordingly",
+        "Duration: 50 Minutes → All 6 RRMLAG steps time-allocated to fit exactly",
+        "Curriculum: MATATAG → Lesson aligned to this framework",
+        "Output format: narrative → Layout generated accordingly"
+      ],
+      "generated_at": "2026-05-24T04:50:42.140915+00:00",
+      "lesson_plan": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>\n      <ul>\n        <li>Explain the importance of business planning in entrepreneurship.</li>\n        <li>Identify the key components of a business plan.</li>\n        <li>Develop a simple business plan for a small-scale enterprise.</li>\n      </ul>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Why is business planning important in entrepreneurship?</td>\n    <td>\n      <p>A business plan serves as a roadmap for entrepreneurs to achieve their goals and objectives. It helps them to identify potential risks and opportunities, and to make informed decisions about their business.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Introduction (5 minutes)</td>\n    <td>Definition of Business Planning</td>\n    <td>\n      <p>A business plan is a written document that outlines a business's goals, objectives, and strategies for achieving them.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Importance of Business Planning</td>\n    <td>Key Components of a Business Plan</td>\n    <td>\n      <p>The key components of a business plan include:</p>\n      <ul>\n        <li>Executive Summary</li>\n        <li>Company Description</li>\n        <li>Market Analysis</li>\n        <li>Product or Service Description</li>\n        <li>Marketing and Sales Strategy</li>\n        <li>Financial Projections</li>\n        <li>Management and Organization</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Developing a Business Plan</td>\n    <td>Group Activity: Developing a Business Plan</td>\n    <td>\n      <p>Students will work in groups to develop a simple business plan for a small-scale enterprise.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Application</th>\n  </tr>\n  <tr>\n    <td>Group Activity: Financial Literacy</td>\n    <td>\n      <p>Students will apply their knowledge of financial literacy by creating a budget for their business plan.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Student Response:</td>\n    <td>\n      <p>Group 1: We will allocate 30% of our budget for marketing and 20% for operational costs.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Assessment Criteria:</td>\n    <td>\n      <ul>\n        <li>Understanding of business planning concepts</li>\n        <li>Ability to identify key components of a business plan</li>\n        <li>Development of a simple business plan</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Assessment Tools:</td>\n    <td>\n      <ul>\n        <li>Classroom observations</li>\n        <li>Group presentations</li>\n        <li>Written assessments</li>\n      </ul>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Assignment Title:</td>\n    <td>\n      <p>Develop a comprehensive business plan for a small-scale enterprise.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Due Date:</td>\n    <td>\n      <p>Next class period.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Special Notes:</td>\n    <td>\n      <p>Include only financial literacy activities.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Reflection</th>\n  </tr>\n  <tr>\n    <td>What did I learn from this lesson?</td>\n    <td>\n      <p>I learned the importance of business planning in entrepreneurship and how to identify the key components of a business plan.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>What challenges did I face during the lesson?</td>\n    <td>\n      <p>I had difficulty understanding the concept of financial projections.</p>\n    </td>\n  </tr>\n</table>",
+      "lesson_plan_narrative": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>\n      <ul>\n        <li>Explain the importance of business planning in entrepreneurship.</li>\n        <li>Identify the key components of a business plan.</li>\n        <li>Develop a simple business plan for a small-scale enterprise.</li>\n      </ul>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Why is business planning important in entrepreneurship?</td>\n    <td>\n      <p>A business plan serves as a roadmap for entrepreneurs to achieve their goals and objectives. It helps them to identify potential risks and opportunities, and to make informed decisions about their business.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Introduction (5 minutes)</td>\n    <td>Definition of Business Planning</td>\n    <td>\n      <p>A business plan is a written document that outlines a business's goals, objectives, and strategies for achieving them.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Importance of Business Planning</td>\n    <td>Key Components of a Business Plan</td>\n    <td>\n      <p>The key components of a business plan include:</p>\n      <ul>\n        <li>Executive Summary</li>\n        <li>Company Description</li>\n        <li>Market Analysis</li>\n        <li>Product or Service Description</li>\n        <li>Marketing and Sales Strategy</li>\n        <li>Financial Projections</li>\n        <li>Management and Organization</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Developing a Business Plan</td>\n    <td>Group Activity: Developing a Business Plan</td>\n    <td>\n      <p>Students will work in groups to develop a simple business plan for a small-scale enterprise.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Application</th>\n  </tr>\n  <tr>\n    <td>Group Activity: Financial Literacy</td>\n    <td>\n      <p>Students will apply their knowledge of financial literacy by creating a budget for their business plan.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Student Response:</td>\n    <td>\n      <p>Group 1: We will allocate 30% of our budget for marketing and 20% for operational costs.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Assessment Criteria:</td>\n    <td>\n      <ul>\n        <li>Understanding of business planning concepts</li>\n        <li>Ability to identify key components of a business plan</li>\n        <li>Development of a simple business plan</li>\n      </ul>\n    </td>\n  </tr>\n  <tr>\n    <td>Assessment Tools:</td>\n    <td>\n      <ul>\n        <li>Classroom observations</li>\n        <li>Group presentations</li>\n        <li>Written assessments</li>\n      </ul>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Assignment Title:</td>\n    <td>\n      <p>Develop a comprehensive business plan for a small-scale enterprise.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>Due Date:</td>\n    <td>\n      <p>Next class period.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Special Notes:</td>\n    <td>\n      <p>Include only financial literacy activities.</p>\n    </td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"2\">Reflection</th>\n  </tr>\n  <tr>\n    <td>What did I learn from this lesson?</td>\n    <td>\n      <p>I learned the importance of business planning in entrepreneurship and how to identify the key components of a business plan.</p>\n    </td>\n  </tr>\n  <tr>\n    <td>What challenges did I face during the lesson?</td>\n    <td>\n      <p>I had difficulty understanding the concept of financial projections.</p>\n    </td>\n  </tr>\n</table>",
+      "lesson_plan_struct": null,
+      "lesson_plan_table": "",
+      "objectives": [
+        "Identify key ideas related to Business Planning",
+        "Demonstrate understanding through a class activity on Business Planning",
+        "Show appreciation for Business Planning in daily life"
+      ],
+      "outputFormat": "narrative",
+      "sectionCompleteness": [
+        {
+          "complete": true,
+          "section": "Objectives"
+        },
+        {
+          "complete": false,
+          "section": "Content Standards"
+        },
+        {
+          "complete": false,
+          "section": "Performance Standards"
+        },
+        {
+          "complete": false,
+          "section": "Learning Competencies"
+        },
+        {
+          "complete": true,
+          "section": "Subject Matter"
+        },
+        {
+          "complete": true,
+          "section": "Learning Resources"
+        },
+        {
+          "complete": true,
+          "section": "Procedures"
+        },
+        {
+          "complete": true,
+          "section": "Teacher Activity"
+        },
+        {
+          "complete": true,
+          "section": "Student Activity"
+        },
+        {
+          "complete": true,
+          "section": "Evaluation"
+        },
+        {
+          "complete": false,
+          "section": "Answer Key"
+        },
+        {
+          "complete": true,
+          "section": "Assignment"
+        },
+        {
+          "complete": true,
+          "section": "Remarks"
+        },
+        {
+          "complete": true,
+          "section": "Reflection"
+        }
+      ],
+      "source": "groq",
+      "strand": "",
+      "usedFallback": false,
+      "validation": {
+        "missing": [
+          "I. OBJECTIVES",
+          "CONTENT STANDARDS",
+          "PERFORMANCE STANDARDS",
+          "LEARNING COMPETENCIES",
+          "II. SUBJECT MATTER",
+          "III. LEARNING RESOURCES",
+          "IV. PROCEDURE",
+          "TEACHER",
+          "ANSWER KEY"
+        ],
+        "passed": false,
+        "percentage": 36,
+        "score": 5,
+        "total": 14
+      },
+      "warnings": [
+        "I. OBJECTIVES",
+        "CONTENT STANDARDS",
+        "PERFORMANCE STANDARDS",
+        "LEARNING COMPETENCIES",
+        "II. SUBJECT MATTER",
+        "III. LEARNING RESOURCES",
+        "IV. PROCEDURE",
+        "TEACHER",
+        "ANSWER KEY"
+      ]
+    }
+  },
+  {
+    "test": 4,
+    "payload": {
+      "subject": "English",
+      "gradeLevel": "Grade 6",
+      "topic": "Nouns",
+      "curriculum": "MATATAG",
+      "specialNotes": "none",
+      "quarter": "1st Quarter",
+      "duration": "50 Minutes"
+    },
+    "response": {
+      "advisory": "",
+      "bloomsLevels": [
+        "Understand",
+        "Apply"
+      ],
+      "competencyCodes": [],
+      "curriculum": "MATATAG",
+      "decisions": [
+        "Intermediate grade (Grade 6) → Concrete-to-abstract progression, Understand/Apply objectives",
+        "Subject: English → All competencies and examples scoped to this learning area",
+        "Topic: Nouns → All objectives, activities, and assessments centered on this concept",
+        "Quarter: 1st Quarter → Pacing and references framed for this grading period",
+        "Difficulty: Intermediate → Depth and scaffolding calibrated accordingly",
+        "Duration: 50 Minutes → All 6 RRMLAG steps time-allocated to fit exactly",
+        "Curriculum: MATATAG → Lesson aligned to this framework",
+        "Output format: narrative → Layout generated accordingly"
+      ],
+      "generated_at": "2026-05-24T04:50:54.335208+00:00",
+      "lesson_plan": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>Identify and classify different types of nouns (common, proper, collective)</td>\n    <td>Use nouns correctly in sentences</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Teacher will ask students about their favorite animals and objects.</td>\n    <td>Students will share their answers and the teacher will write them on the board.</td>\n    <td>Teacher will ask students to identify the nouns in their answers.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Teacher will introduce the concept of nouns and their types (common, proper, collective).</td>\n    <td>Teacher will provide examples and ask students to identify the nouns in the sentences.</td>\n    <td>Teacher will give students a handout with exercises to identify and classify nouns.</td>\n  </tr>\n  <tr>\n    <td>Teacher will review the answers with the students.</td>\n    <td>Teacher will provide feedback and ask students to create their own sentences using nouns.</td>\n    <td>Teacher will have students share their sentences with the class.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will work in pairs to create a short story using at least 5 different types of nouns.</td>\n    <td>Students will share their stories with the class.</td>\n    <td>Teacher will provide feedback and ask students to revise their stories.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the application activity.</td>\n    <td>Teacher will review students' handouts and stories for accuracy and completeness.</td>\n    <td>Teacher will give students a quiz to assess their understanding of nouns.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will write a short essay using at least 10 different types of nouns.</td>\n    <td>Students will submit their essays to the teacher for feedback.</td>\n    <td>Teacher will provide feedback and ask students to revise their essays.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students will be encouraged to ask questions and seek help when needed.</td>\n    <td>Teacher will provide additional support to students who need it.</td>\n    <td>Teacher will ensure that the lesson is conducted in a fun and engaging manner.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and identify areas for improvement.</td>\n    <td>Teacher will adjust the lesson plan for future implementation.</td>\n    <td>Teacher will ensure that the lesson is aligned with the MATATAG curriculum standards.</td>\n  </tr>\n</table>",
+      "lesson_plan_narrative": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Objectives</th>\n  </tr>\n  <tr>\n    <td>By the end of the lesson, the students will be able to:</td>\n    <td>Identify and classify different types of nouns (common, proper, collective)</td>\n    <td>Use nouns correctly in sentences</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Motivation</th>\n  </tr>\n  <tr>\n    <td>Teacher will ask students about their favorite animals and objects.</td>\n    <td>Students will share their answers and the teacher will write them on the board.</td>\n    <td>Teacher will ask students to identify the nouns in their answers.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Lesson Proper</th>\n  </tr>\n  <tr>\n    <td>Teacher will introduce the concept of nouns and their types (common, proper, collective).</td>\n    <td>Teacher will provide examples and ask students to identify the nouns in the sentences.</td>\n    <td>Teacher will give students a handout with exercises to identify and classify nouns.</td>\n  </tr>\n  <tr>\n    <td>Teacher will review the answers with the students.</td>\n    <td>Teacher will provide feedback and ask students to create their own sentences using nouns.</td>\n    <td>Teacher will have students share their sentences with the class.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Application</th>\n  </tr>\n  <tr>\n    <td>Students will work in pairs to create a short story using at least 5 different types of nouns.</td>\n    <td>Students will share their stories with the class.</td>\n    <td>Teacher will provide feedback and ask students to revise their stories.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Evaluation</th>\n  </tr>\n  <tr>\n    <td>Teacher will observe students during the application activity.</td>\n    <td>Teacher will review students' handouts and stories for accuracy and completeness.</td>\n    <td>Teacher will give students a quiz to assess their understanding of nouns.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Assignment</th>\n  </tr>\n  <tr>\n    <td>Students will write a short essay using at least 10 different types of nouns.</td>\n    <td>Students will submit their essays to the teacher for feedback.</td>\n    <td>Teacher will provide feedback and ask students to revise their essays.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Remarks</th>\n  </tr>\n  <tr>\n    <td>Students will be encouraged to ask questions and seek help when needed.</td>\n    <td>Teacher will provide additional support to students who need it.</td>\n    <td>Teacher will ensure that the lesson is conducted in a fun and engaging manner.</td>\n  </tr>\n</table>\n\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" style=\"width:100%;border-collapse:collapse;margin-bottom:20px;\">\n  <tr>\n    <th colspan=\"3\">Reflection</th>\n  </tr>\n  <tr>\n    <td>Teacher will reflect on the effectiveness of the lesson and identify areas for improvement.</td>\n    <td>Teacher will adjust the lesson plan for future implementation.</td>\n    <td>Teacher will ensure that the lesson is aligned with the MATATAG curriculum standards.</td>\n  </tr>\n</table>",
+      "lesson_plan_struct": null,
+      "lesson_plan_table": "",
+      "objectives": [
+        "Identify key ideas related to Nouns",
+        "Demonstrate understanding through a class activity on Nouns",
+        "Show appreciation for Nouns in daily life"
+      ],
+      "outputFormat": "narrative",
+      "sectionCompleteness": [
+        {
+          "complete": true,
+          "section": "Objectives"
+        },
+        {
+          "complete": false,
+          "section": "Content Standards"
+        },
+        {
+          "complete": false,
+          "section": "Performance Standards"
+        },
+        {
+          "complete": false,
+          "section": "Learning Competencies"
+        },
+        {
+          "complete": true,
+          "section": "Subject Matter"
+        },
+        {
+          "complete": true,
+          "section": "Learning Resources"
+        },
+        {
+          "complete": true,
+          "section": "Procedures"
+        },
+        {
+          "complete": true,
+          "section": "Teacher Activity"
+        },
+        {
+          "complete": true,
+          "section": "Student Activity"
+        },
+        {
+          "complete": true,
+          "section": "Evaluation"
+        },
+        {
+          "complete": false,
+          "section": "Answer Key"
+        },
+        {
+          "complete": true,
+          "section": "Assignment"
+        },
+        {
+          "complete": true,
+          "section": "Remarks"
+        },
+        {
+          "complete": true,
+          "section": "Reflection"
+        }
+      ],
+      "source": "groq",
+      "strand": "",
+      "usedFallback": false,
+      "validation": {
+        "missing": [
+          "I. OBJECTIVES",
+          "CONTENT STANDARDS",
+          "PERFORMANCE STANDARDS",
+          "LEARNING COMPETENCIES",
+          "II. SUBJECT MATTER",
+          "III. LEARNING RESOURCES",
+          "IV. PROCEDURE",
+          "ANSWER KEY"
+        ],
+        "passed": false,
+        "percentage": 43,
+        "score": 6,
+        "total": 14
+      },
+      "warnings": [
+        "I. OBJECTIVES",
+        "CONTENT STANDARDS",
+        "PERFORMANCE STANDARDS",
+        "LEARNING COMPETENCIES",
+        "II. SUBJECT MATTER",
+        "III. LEARNING RESOURCES",
+        "IV. PROCEDURE",
+        "ANSWER KEY"
+      ]
+    }
+  }
+]
