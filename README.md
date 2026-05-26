@@ -1,0 +1,362 @@
+# Lumina AI — Intelligent Lesson Plan Generator for Filipino Teachers
+
+An AI-powered platform that generates complete, DepEd-compliant lesson plans in seconds. Built to help K-12 and Senior High School teachers save 6-8 hours per week on lesson planning.
+
+## 🎯 What Problem Does It Solve?
+
+Philippine teachers spend **8-10 hours per week** manually writing Detailed Lesson Plans (DLPs) that comply with strict DepEd formatting requirements. Lumina AI eliminates this burden by generating complete, ready-to-use lesson plans instantly—so teachers can focus on actual teaching instead of paperwork.
+
+**Impact:** A single teacher can reclaim 6-8 hours per week. If Lumina reaches 50,000 teachers, it reclaims **6 million hours per year** nationwide.
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Node.js 16+
+- Groq API key (free tier: [groq.com](https://groq.com))
+
+### Setup
+
+1. **Clone and navigate to the project:**
+   ```bash
+   git clone <repo-url>
+   cd lumina-ai
+   ```
+
+2. **Backend setup (Flask):**
+   ```bash
+   cd backend
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. **Add environment variables:**
+   Create `.env` in `backend/`:
+   ```
+   GROQ_API_KEY=your_groq_api_key_here
+   GEMINI_API_KEY=your_gemini_key_here  # Optional fallback
+   ```
+
+4. **Frontend setup (React + Vite):**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+### Run Locally
+
+**Terminal 1 — Backend (Flask):**
+```bash
+cd lumina-ai/backend
+python app.py
+```
+Backend runs on `http://localhost:5000`
+
+**Terminal 2 — Frontend (Vite dev server):**
+```bash
+cd lumina-ai/frontend
+npm run dev
+```
+Frontend runs on `http://localhost:5173/lumina-ai/`
+
+## 🏗️ System Architecture
+
+```
+┌─────────────────────────────────────────────────┐
+│         LUMINA AI SYSTEM ARCHITECTURE           │
+└─────────────────────────────────────────────────┘
+
+FRONTEND (React + Vite)
+├─ LessonForm Component
+│  └─ Collects: Subject, Grade, Topic, Quarter, 
+│             Duration, Difficulty, Curriculum
+│
+└─ POST to /api/generate
+
+BACKEND (Flask REST API)
+├─ Input validation
+└─ Three-tier generation:
+   ├─ TIER 1: Groq LLaMA 3.3 70B (primary)
+   │  ├─ Call 1: Tables 1-5 (Objectives, Content, Resources, Procedures)
+   │  └─ Call 2: Tables 6-9 (Evaluation, Assignment, Remarks, Reflection)
+   │
+   ├─ TIER 2: Focused fallback (LLaMA 3.3 70B with simplified prompt)
+   │
+   └─ TIER 3: Static HTML template (always succeeds)
+
+POST-PROCESSING
+├─ normalize_table_styles() — Apply consistent CSS
+├─ validate_dlp() — Scan for all 9 required sections
+└─ normalize_response_metadata() — Add Bloom's levels, decisions log, warnings
+
+FRONTEND OUTPUT
+├─ DLPOutputPanel displays 9 HTML tables
+├─ Validation score (0-100%)
+├─ Edit, print, download options
+└─ Session storage for history
+```
+
+## 📚 Technology Stack
+
+### Backend
+- **Flask** — Lightweight REST API framework
+- **Groq API** — LLaMA 3.3 70B & 3.1 8B inference
+- **Google Gemini** — Fallback AI model
+- **Python 3.8+**
+
+**Key Dependencies:**
+```
+Flask==2.3.2
+groq==0.4.1
+google-generativeai==0.3.0
+python-dotenv==1.0.0
+requests==2.31.0
+```
+
+### Frontend
+- **React 18** — Component-based UI
+- **Vite** — Fast dev server & build tool
+- **Axios** — HTTP client
+- **Tailwind CSS** — Utility-first styling
+- **Node 16+**
+
+**Key Dependencies:**
+```
+react@18.2.0
+vite@5.4.1
+axios@1.4.0
+tailwindcss@3.3.0
+postcss@8.4.24
+```
+
+## 🎓 Core Features
+
+### 1. **Agentic Three-Tier Fallback System**
+- **Tier 1 (Primary):** Groq LLaMA 3.3 70B with full system prompt (1000+ lines of DepEd rules)
+- **Tier 2 (Focused):** Same model with simplified prompt if Tier 1 fails
+- **Tier 3 (Static):** Deterministic HTML template—always succeeds
+- Result: **100% delivery rate.** Teachers never see an error page.
+
+### 2. **Prompt Engineering (Not Fine-Tuning)**
+- System prompt encodes all 9 DepEd table structures, formatting rules, Bloom's Taxonomy alignment, topic anchoring
+- User prompt injects specific inputs (subject, grade, topic, etc.) + topic-specific constraints
+- **Advantage:** Fast iteration, no training data needed, adapts to curriculum changes instantly
+
+### 3. **Two-Part Generation Strategy**
+- **Call 1:** Tables 1-5 (header, objectives, content, resources, procedures)
+- **Call 2:** Tables 6-9 (evaluation, assignment, remarks, reflection)
+- **Why:** Splits token load, reduces rate limit risk, improves success rate
+
+### 4. **Pedagogical Correctness**
+- Bloom's Taxonomy levels calibrated to grade + difficulty
+- RRMLAG procedure sequencing (Routine → Review → Motivation → Lesson Proper → Application → Generalization)
+- Topic-specific objectives, activities, and assessments (never generic)
+- Content vs. Performance Standards are distinct, not repetitive
+
+### 5. **Validation & Metadata**
+- Scans for all 9 required sections
+- Reports completeness score (0-100%)
+- Provides decisions log explaining pedagogical choices
+- Flags potential hallucinations ("References generated by AI—verify before use")
+- Teachers know exactly what to review
+
+### 6. **Session Storage & History**
+- Client-side localStorage persists lesson plans during session
+- Teachers can revisit, edit, duplicate previous plans
+- No persistent backend database needed (free tier limitation)
+
+## 📊 Output Format: 9 Required DepEd Tables
+
+The system generates HTML lesson plans with exactly 9 tables:
+
+| # | Table | Content |
+|---|-------|---------|
+| 1 | **Header** | School, teacher, subject, grade, date, quarter, duration, lesson type |
+| 2 | **I. OBJECTIVES** | Content standards, performance standards, learning competencies, cognitive/psychomotor/affective objectives |
+| 3 | **II. CONTENT** | Subject matter, references, materials, values infused |
+| 4 | **III. LEARNING RESOURCES** | 5-7 resources supporting the topic |
+| 5 | **IV. LEARNING PROCEDURE** | RRMLAG steps with teacher activities (+ student responses for Detailed DLPs) |
+| 6 | **V. EVALUATION** | 5+ evaluation items with answer key |
+| 7 | **VI. ASSIGNMENT** | Specific task, deadline, rubric |
+| 8 | **VII. REMARKS** | Professional observations about delivery, participation, pacing |
+| 9 | **VIII. REFLECTION** | Teacher reflection on what worked, what needs improvement, next steps |
+
+All tables use consistent CSS: 1px solid border, light blue header (#E8F4F8), 10px padding, ready to print.
+
+## 🔄 How It Works: End-to-End Flow
+
+### User Input Phase
+Teacher fills out form:
+- Subject, Grade Level, Topic, Quarter, Duration, Difficulty, Curriculum Framework, Lesson Plan Type, Special Notes
+
+### Tier 1: Primary Generation (Groq API)
+1. System validates inputs
+2. **Call 1** → Generate Tables 1-5 (8000 tokens, LLaMA 3.3 70B)
+3. If Call 1 succeeds: **Call 2** → Generate Tables 6-9 (4000 tokens, LLaMA 3.3 70B)
+4. If either fails due to rate limit/token overflow → retry with LLaMA 3.1 8B (up to 3 retries per call)
+
+### Tier 2: Fallback (if Tier 1 fully fails)
+- Invoke `call_gemini_fallback()` with shortened, focused prompt
+
+### Tier 3: Static Template (if Tier 2 fails)
+- Generate deterministic HTML with all 9 tables
+- Pre-fill metadata from teacher input
+- Include placeholder content with clear "review before use" instructions
+
+### Post-Processing
+1. `normalize_table_styles()` — Apply consistent CSS
+2. `validate_dlp()` — Check for all 9 sections, report completeness score
+3. `normalize_response_metadata()` — Build Bloom's levels, decisions log, section completeness array, warnings
+
+### Response to Frontend
+```json
+{
+  "lesson_plan": "...full HTML (9 tables)...",
+  "validation": { "score": 9, "percentage": 100, "passed": true },
+  "decisions": ["Grade 7 Intermediate → Apply/Analyze", "..."],
+  "bloomsLevels": ["Apply", "Analyze"],
+  "advisory": "",
+  "source": "groq",
+  "usedFallback": false
+}
+```
+
+## ⚙️ Why These Technical Choices?
+
+| Choice | Alternative | Why Lumina Chose This |
+|--------|-------------|----------------------|
+| **Flask** | Django, FastAPI | Lightweight, minimal boilerplate, easy Groq/Gemini integration |
+| **React + Vite** | Vue, Angular, Next.js | Natural component model (Form → Output → History), fast dev server, session storage trivial |
+| **Groq** | OpenAI, Anthropic | 2-3× faster, free tier, LLaMA context window sufficient, fallback compatibility |
+| **HTML tables** | JSON, Markdown, DOCX | Immediate printability, matches DepEd format exactly, editable in browser/Word |
+| **Prompt engineering** | Fine-tuning | No training data available, fast iteration, flexibility for curriculum changes |
+| **Three-tier fallback** | Single model | Reliability—teacher's time is valuable, never return blank error |
+
+## 📋 Curriculum Support
+
+- **K-12 MELCs** (DepEd Order No. 12, s. 2020)
+- **MATATAG** (streamlined competencies)
+- **SHS CG** (Senior High School Curriculum Guide)
+- **ALS** (Alternative Learning System)
+- **IPED** (Indigenous Peoples Education)
+
+## ⚠️ Current Limitations
+
+### Free Tier Constraints
+- **Token limits:** Groq free tier ~90K tokens/min, ~3000 requests/day
+- **Generation volume:** Single teacher can generate 8-12 lessons/day before approaching limits
+- **No persistent storage:** Session storage only (localStorage); cleared on browser cache clear
+- **No user authentication:** All plans ephemeral unless manually downloaded
+- **Hallucination risks:** LLM may generate non-existent DepEd orders, textbook titles
+
+### Recommended Workarounds
+- Teachers stagger usage (1-2 lessons/day)
+- Export and save completed plans locally
+- Verify all references before classroom use
+- Schools needing high volume should upgrade to paid Groq/Gemini tier
+
+## 🛡️ Responsible AI
+
+✓ **Transparency:** All outputs marked "AI-generated draft—review before use"  
+✓ **Privacy:** Never generates fake teacher/student/school names  
+✓ **Teacher Agency:** All content editable; AI is a tool, not a replacement  
+✓ **Validation Warnings:** Flags potential AI hallucinations upfront  
+✓ **Equity:** Free tier, browser-based, supports multiple curricula, offline-friendly  
+
+## 📖 Project Structure
+
+```
+lumina-ai/
+├── README.md                 (this file)
+├── backend/
+│   ├── app.py               (Flask REST API)
+│   ├── requirements.txt      (Python dependencies)
+│   ├── .env                 (API keys, local only)
+│   └── [generation logic]   (prompts, validation, fallbacks)
+├── frontend/
+│   ├── package.json         (Node dependencies)
+│   ├── vite.config.js       (Vite dev server config)
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── form/        (LessonForm, input fields)
+│   │   │   ├── output/      (DLPOutputPanel, display logic)
+│   │   │   ├── history/     (HistoryPage, session storage)
+│   │   │   └── layout/      (Navbar, Footer)
+│   │   └── services/
+│   │       ├── api.js       (axios calls to backend)
+│   │       └── storage.js   (localStorage management)
+│   └── public/index.html
+└── LUMINA_AI_SYSTEM_DESIGN.md (full technical design doc)
+```
+
+## 🔗 Links
+
+- **GitHub:** [Repository](https://github.com/yourusername/lumina-ai)
+- **Web Demo:** http://localhost:5173/lumina-ai/ (local dev)
+- **Design Doc:** See [LUMINA_AI_SYSTEM_DESIGN.md](../LUMINA_AI_SYSTEM_DESIGN.md)
+- **Groq API:** https://groq.com
+- **DepEd Curriculum:** https://www.deped.gov.ph
+
+## 📝 Example Workflow
+
+1. Teacher navigates to http://localhost:5173/lumina-ai/
+2. Fills form:
+   - Subject: Science
+   - Grade: 7
+   - Topic: The Water Cycle
+   - Quarter: 2
+   - Duration: 50 min
+   - Difficulty: Intermediate
+   - Special Notes: "Include local examples from Maynilad"
+3. Clicks "Generate"
+4. Backend calls Groq API (Call 1 → Call 2)
+5. Frontend receives lesson plan HTML + metadata
+6. Teacher reviews, edits sections if needed, prints/downloads as PDF
+7. Plan saved to session storage; teacher can regenerate or duplicate next class
+
+## 🧪 Testing
+
+### Unit Tests (Backend)
+```bash
+cd backend
+pytest tests/
+```
+
+### E2E Tests (Full Stack)
+```bash
+cd backend
+python run_e2e.py
+```
+
+### Manual Testing
+1. Backend running on :5000
+2. Frontend running on :5173
+3. Test with various topics/grades/difficulties
+4. Check validation scores (target: 9/9 sections, 100%)
+
+## 🚀 Deployment
+
+### Production Build (Frontend)
+```bash
+cd frontend
+npm run build
+# Output: dist/
+```
+
+### Production Server (Backend)
+```bash
+# Use WSGI server (not Flask dev server)
+pip install gunicorn
+gunicorn -w 4 -b 0.0.0.0:5000 app:app
+```
+
+## 📞 Support & Feedback
+
+- **Issues:** [GitHub Issues](https://github.com/yourusername/lumina-ai/issues)
+- **Feedback:** Teachers encouraged to suggest improvements
+
+---
+
+**Lumina AI** — Reclaiming teacher time, one lesson plan at a second.
